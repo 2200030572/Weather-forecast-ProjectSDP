@@ -1,0 +1,38 @@
+body {
+ background-image: url("back.gif");
+ background-color: #cccccc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer; /* Change cursor to pointer */
+}
